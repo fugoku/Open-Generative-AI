@@ -582,13 +582,7 @@ export default function MarketingStudio({ apiKey, droppedFiles, onFilesHandled }
                   Generating...
                 </>
               ) : (
-                <>
-                  <span>Launch</span>
-                  <div className="flex items-center gap-1 border-l border-black/10 pl-3">
-                    <span className="text-[10px] opacity-70">{params.res === '1080p' ? params.duration * 0.675 : params.duration * 0.3}</span>
-                    <span className="text-[8px] font-black opacity-40">$</span>
-                  </div>
-                </>
+                <span>Launch</span>
               )}
             </button>
           </div>
